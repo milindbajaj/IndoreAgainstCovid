@@ -2,7 +2,7 @@ html{
 	height: 100%;
 }
 body{
-	background: url(https://lh3.googleusercontent.com/proxy/Y4rNSFpin6NmzabjgKcTB0iFgJkFtpen82IceZgydW4056NHQHq-OF7Nztt_GIOhDXLLHQm72JZvIp36Xrgus9x7cPvkWM3yQ90mEYPF4NbvhUqpbvJ7hJd1WwE);
+	background-image:url(covidimg.jpg);
 	background-size: cover;
 	background-position: center;
 	font-family: Raleway;
@@ -11,17 +11,43 @@ body{
 	text-align: center;
 	padding-top: 15%;
 	color: white;
+	height: 750px;
 	text-decoration-style: bold;
     text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
                  0px 8px 13px rgba(0,0,0,0.1),
                  0px 18px 23px rgba(0,0,0,0.1);
 }
+.content1{
+	text-align: left;
+	padding-top: 1%;
+	padding-bottom: 5%;
+	color: #222931;
+	text-decoration-style: bold;
+
+}
+.content2{
+	text-align: left;
+	padding-top: 1%;
+	padding-bottom: 10%;
+	color: #E5E5E5;
+	text-decoration-style: bold;
+
+}
+#creator{
+padding-top: 14%;
+}
 h1	{
 	font-size: 5em;
 	font-weight: 700;
 }
-h2{
-	text-align: left;
+a{
+	color: #E5E5E5;
+}
+.theme1{
+	background: #E5E5E5;
+}
+.theme2{
+	background: #0C2D48;
 }
 input[type=radio]{
   width: 15px;
@@ -38,4 +64,12 @@ hr{
 	width: 400px;
 	border-top: 1px solid #f8f8f8;
 	border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+footer{
+	background: #E5E5E5;
+	color: black;
+}
+.foot{
+	color: black;
 }
