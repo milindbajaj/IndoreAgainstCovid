@@ -15,7 +15,7 @@ def index():
         q = 'https://twitter.com/search?q=verified+indore+'
         x = q + data[d] + '+-"needed"+-"required"&f=live'
         return redirect(x)
-    return render_template("Homepage.html")
+    return render_template("IndoreAgainstCovid.html")
 
 if __name__ == '__main__':
     app.run(debug=True)
