@@ -2,7 +2,7 @@ html{
 	height: 100%;
 }
 body{
-	background-image:url(covidimg.jpg);
+	background:black;
 	background-size: cover;
 	background-position: center;
 	font-family: Raleway;
@@ -29,7 +29,7 @@ body{
 	text-align: left;
 	padding-top: 1%;
 	padding-bottom: 10%;
-	color: #222931;
+	color: #E5E5E5;
 	text-decoration-style: bold;
 
 }
