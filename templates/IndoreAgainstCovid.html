@@ -40,7 +40,7 @@
 					<h1>Indore Against Covid</h1>
 				    <h3>The Helping Hand To People</h3>
 				    <hr>
-				    <form method="post">
+				    <form method="post" id="form">
     <label class="radio-inline">
       <input type="radio" name="data" value="1">Bed(s)
     </label> &nbsp;
@@ -93,5 +93,15 @@
 
 <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.js"></script>
 <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<script type='text/javascript'>
+$(function () {
+        $("form").submit(function (e) {
+            if (!$('input[name="data"]').is(':checked')) {
+                alert("Please Select any Option");
+                e.preventDefault();
+            }
+        });
+    });
+</script>
 </body>
 </html>
